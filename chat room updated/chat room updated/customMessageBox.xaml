@@ -1,0 +1,14 @@
+﻿<Window x:Class="ChatRoomAlyssaUpdated.customMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="customMessageBox" Height="180" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*" />
+            <ColumnDefinition Width="258*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="" Height="29"  Name="messageLabel" Margin="12,54,12,58" Foreground="#FF291562" FontFamily="Andy" FontSize="20" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" VerticalContentAlignment="Top" />
+        <Button Background="#7CDAD3FF" Content="okay" FontFamily="Andy" FontSize="20" Foreground="#FF3C1271" Height="32" HorizontalAlignment="Left" Margin="78,0,0,12" Name="okayButton" Width="75" Click="okayButton_Click" VerticalAlignment="Bottom" Grid.Column="1" />
+        <TextBox Height="31" Margin="12,1,12,109" Name="textbox" Width="254" Text="" FontFamily="Andy" FontSize="20" Foreground="#FF291562" Grid.ColumnSpan="2" />
+    </Grid>
+</Window>

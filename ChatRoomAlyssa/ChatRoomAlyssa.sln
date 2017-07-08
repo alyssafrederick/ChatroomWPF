@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoomAlyssa", "ChatRoomAlyssa\ChatRoomAlyssa.csproj", "{B468280E-49EB-4B94-9B12-E9922BDA6549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B468280E-49EB-4B94-9B12-E9922BDA6549}.Debug|x86.ActiveCfg = Debug|x86
+		{B468280E-49EB-4B94-9B12-E9922BDA6549}.Debug|x86.Build.0 = Debug|x86
+		{B468280E-49EB-4B94-9B12-E9922BDA6549}.Release|x86.ActiveCfg = Release|x86
+		{B468280E-49EB-4B94-9B12-E9922BDA6549}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
